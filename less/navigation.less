@@ -1,8 +1,15 @@
 // Navigation Styles here
-.navigation {
+
+//Mixins
+.centered() {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.navigation {
+    .centered();
     height: 9rem;
     border-bottom: 1px dashed grey;
 
@@ -11,7 +18,6 @@
         margin-right: 14%;
         margin-left: 18%;
         font-size: 30px;
-
     }
 
     nav {
@@ -23,5 +29,17 @@
             font-size: 1.7rem;
             margin: 0 3% 0 4%;
         }
+    }
+}
+
+@media @mobile {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
     }
 }

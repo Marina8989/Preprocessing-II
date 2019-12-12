@@ -190,6 +190,16 @@ img {
   font-size: 1.7rem;
   margin: 0 3% 0 4%;
 }
+@media (max-width: 500px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo {
+    margin-bottom: 1rem;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
