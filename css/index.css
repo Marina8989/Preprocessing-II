@@ -168,6 +168,28 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  border-bottom: 1px dashed grey;
+}
+.navigation .logo {
+  width: 30%;
+  margin-right: 14%;
+  margin-left: 18%;
+  font-size: 30px;
+}
+.navigation nav {
+  width: 70%;
+}
+.navigation nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+  margin: 0 3% 0 4%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
